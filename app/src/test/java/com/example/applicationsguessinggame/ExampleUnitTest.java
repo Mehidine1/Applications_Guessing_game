@@ -1,4 +1,4 @@
-package com.example.guessapp;
+package com.example.applicationsguessinggame;
 
 import org.junit.Test;
 

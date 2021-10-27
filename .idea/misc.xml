@@ -3,10 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DELL/StudioProjects/ApplicationsGame/app/src/main/res/layout/activity_amateur.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/DELL/StudioProjects/ApplicationsGame/app/src/main/res/layout/activity_legend.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/DELL/StudioProjects/ApplicationsGame/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/StudioProjects/ApplicationsGame/app/src/main/res/layout/activity_noob.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/DELL/StudioProjects/ApplicationsGame/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1828125" />
+        <entry key="..\:/Users/DELL/StudioProjects/Guess App/GuessApp/app/src/main/res/layout/activity_amateur.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/StudioProjects/Guess App/GuessApp/app/src/main/res/layout/activity_easy.xml" value="0.264" />
         <entry key="..\:/Users/DELL/StudioProjects/Guess App/GuessApp/app/src/main/res/layout/activity_hard.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/DELL/StudioProjects/Guess App/GuessApp/app/src/main/res/layout/activity_legend.xml" value="0.264" />
         <entry key="..\:/Users/DELL/StudioProjects/Guess App/GuessApp/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/StudioProjects/Guess App/GuessApp/app/src/main/res/layout/activity_medium.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/StudioProjects/Guess App/GuessApp/app/src/main/res/layout/activity_noob.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>

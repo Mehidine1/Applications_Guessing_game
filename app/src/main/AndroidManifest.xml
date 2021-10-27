@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.guessapp">
+    package="com.example.applicationsguessinggame">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,18 +10,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GuessApp">
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
         <activity
-            android:name=".LegendActivity"
+            android:name="com.example.applicationsguessinggame.LegendActivity"
             android:exported="true" />
         <activity
-            android:name=".AmateurActivity"
+            android:name="com.example.applicationsguessinggame.AmateurActivity"
             android:exported="true" />
         <activity
-            android:name=".noobActivity"
+            android:name="com.example.applicationsguessinggame.noobActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.applicationsguessinggame.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

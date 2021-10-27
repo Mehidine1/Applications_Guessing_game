@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Guess App</string>
+    <string name="app_name">Applications Guessing Game</string>
+    <string name="you_are_now_playing_in_noob_level_enjoy">You are now playing in noob level, enjoy!</string>
+
+    <string name="choose_answer">Choose Answer</string>
+    <string name="image_application">image_application</string>
+    <string name="you_are_now_playing_in_amateur_level_enjoy">You are now playing in amateur level, enjoy!</string>
+    <string name="play_our_guessing_game">Play Our Guessing Game</string>
+    <string name="choose_difficulty">How good are you ;)</string>
+    <string name="noob">I am a Noob</string>
+    <string name="legend">I am a Legend</string>
+    <string name="amateur">I am an Amateur</string>
+    <string name="_60">60</string>
+    <string name="_0">0</string>
+    <string name="option3">option3</string>
+    <string name="option1">option1</string>
+    <string name="option4">option4</string>
+    <string name="option2">option2</string>
+    <string name="application1">application1</string>
+    <string name="application2">application2</string>
+    <string name="application4">application4</string>
+    <string name="application3">application3</string>
 </resources>
