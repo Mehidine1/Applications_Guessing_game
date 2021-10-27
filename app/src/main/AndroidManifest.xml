@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuessApp">
         <activity
-            android:name=".HardActivity"
+            android:name=".LegendActivity"
             android:exported="true" />
         <activity
-            android:name=".MediumActivity"
+            android:name=".AmateurActivity"
             android:exported="true" />
         <activity
-            android:name=".EasyActivity"
+            android:name=".noobActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

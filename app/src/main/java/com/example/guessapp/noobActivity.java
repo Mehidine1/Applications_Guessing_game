@@ -25,7 +25,7 @@ import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class EasyActivity extends AppCompatActivity {
+public class noobActivity extends AppCompatActivity {
 
     ArrayList<String> appImages,appNames,appChoices;
     Button button1,button2,button3,button4;
@@ -57,7 +57,7 @@ public class EasyActivity extends AppCompatActivity {
 
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_easy);
+        setContentView(R.layout.activity_noob);
         //initialized after oncreate cause app was crashing....
 
         appImages = new ArrayList<String>();
@@ -118,14 +118,14 @@ public class EasyActivity extends AppCompatActivity {
                 String srcTag = src.substring(startIndex, endIndex);
                 appNames.add(srcTag);
             }
-            optionize();
+            getOptions();
 
             button1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     if(button1.getText().toString().equalsIgnoreCase(correctAnswer)){
                         answerChoice.setText("Correct Answer");
-                        optionize();
+                        getOptions();
                     }else{
                         answerChoice.setText("Wrong Answer");
                     }
@@ -136,7 +136,7 @@ public class EasyActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     if(button2.getText().toString().equalsIgnoreCase(correctAnswer)){
                         answerChoice.setText("Correct Answer");
-                        optionize();
+                        getOptions();
                     }else{
                         answerChoice.setText("Wrong Answer");
                     }
@@ -147,7 +147,7 @@ public class EasyActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     if(button3.getText().toString().equalsIgnoreCase(correctAnswer)){
                         answerChoice.setText("Correct Answer");
-                        optionize();
+                        getOptions();
                     }else{
                         answerChoice.setText("Wrong Answer");
                     }
@@ -158,7 +158,7 @@ public class EasyActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     if(button4.getText().toString().equalsIgnoreCase(correctAnswer)){
                         answerChoice.setText("Correct Answer");
-                        optionize();
+                        getOptions();
                     }else{
                         answerChoice.setText("Wrong Answer");
                     }
@@ -175,7 +175,7 @@ public class EasyActivity extends AppCompatActivity {
 
     
 
-    public void optionize(){
+    public void getOptions(){
         if(count==103){
             button1.setOnClickListener(null);
             button2.setOnClickListener(null);

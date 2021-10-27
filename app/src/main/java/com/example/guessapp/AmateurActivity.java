@@ -6,12 +6,10 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,12 +18,11 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class MediumActivity extends AppCompatActivity {
+public class AmateurActivity extends AppCompatActivity {
 
     ArrayList<String> appImages,appNames,appChoices;
     Button button1,button2,button3,button4;
@@ -59,7 +56,7 @@ public class MediumActivity extends AppCompatActivity {
         
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_medium);
+        setContentView(R.layout.activity_amateur);
         //initialized after oncreate cause app was crashing....
 
 
@@ -126,7 +123,7 @@ public class MediumActivity extends AppCompatActivity {
                 String srcTag = src.substring(startIndex, endIndex);
                 appNames.add(srcTag);
             }
-            optionize();
+            getOptions();
 
             button1.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -144,7 +141,7 @@ public class MediumActivity extends AppCompatActivity {
 
                         scoreTxt.setText(score+"");
                     }
-                    optionize();
+                    getOptions();
                 }
             });
             button2.setOnClickListener(new View.OnClickListener() {
@@ -163,7 +160,7 @@ public class MediumActivity extends AppCompatActivity {
 
                         scoreTxt.setText(score+"");
                     }
-                    optionize();
+                    getOptions();
                 }
             });
             button3.setOnClickListener(new View.OnClickListener() {
@@ -182,7 +179,7 @@ public class MediumActivity extends AppCompatActivity {
 
                         scoreTxt.setText(score+"");
                     }
-                    optionize();
+                    getOptions();
                 }
             });
             button4.setOnClickListener(new View.OnClickListener() {
@@ -200,7 +197,7 @@ public class MediumActivity extends AppCompatActivity {
                         }
                         scoreTxt.setText(score+"");
                     }
-                    optionize();
+                    getOptions();
                 }
             });
 
@@ -209,7 +206,7 @@ public class MediumActivity extends AppCompatActivity {
         }
     }
 
-    public void optionize(){
+    public void getOptions(){
         if(count==103){
             timerTxt.setText("GameOver");
             button1.setOnClickListener(null);

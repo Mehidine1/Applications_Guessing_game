@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         btnEasy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, EasyActivity.class));
+                startActivity(new Intent(MainActivity.this, noobActivity.class));
             }
         });
 
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btnMedium.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, MediumActivity.class));
+                startActivity(new Intent(MainActivity.this, AmateurActivity.class));
             }
         });
 
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         btnHard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, HardActivity.class));
+                startActivity(new Intent(MainActivity.this, LegendActivity.class));
             }
         });
     }

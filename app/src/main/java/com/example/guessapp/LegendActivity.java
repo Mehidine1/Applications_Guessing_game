@@ -25,7 +25,7 @@ import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class HardActivity extends AppCompatActivity {
+public class LegendActivity extends AppCompatActivity {
 
     LinkedList<String> images,names,options,selected;
     Button b1,b2,b3,b4;
@@ -49,7 +49,7 @@ public class HardActivity extends AppCompatActivity {
         StrictMode.setThreadPolicy(policy);
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hard);
+        setContentView(R.layout.activity_legend);
 
         txtScore = (TextView) findViewById(R.id.score_text);
         txtTimer = (TextView) findViewById(R.id.txt_timer);
